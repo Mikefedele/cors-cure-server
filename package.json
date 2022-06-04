@@ -1,0 +1,19 @@
+{
+  "name": "cors-cure-server",
+  "version": "1.0.0",
+  "description": "A server implementing the cors-anywhere node package",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "Mike Fedele",
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
